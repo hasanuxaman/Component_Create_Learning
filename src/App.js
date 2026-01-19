@@ -1,21 +1,20 @@
-import './App.css';
-import React from 'react';
-import Function_name from './Components/Function_Components';
-import ExpenseEntryItem from './Components/Class_Component';
+import { sub } from "./Components/Math";
+import Button_Use from "./Page/User_Button_Use";
+import "./App.css";
+
 function App() {
+
   return (
-    <div className="App">
-      <h1>
-        <Function_name 
-            name="Rony" 
-        />
-      </h1>
-      <h1>
-        <Function_name age='30' />
-      </h1>
-      <h><ExpenseEntryItem/></h>
+    <>
+     <div className="App p-8">
+      <Button_Use/>
     </div>
+    </>
+   
   );
+
+
+
 }
 
 export default App;
