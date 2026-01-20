@@ -35,20 +35,20 @@ const UserCard = ({ user, isOnline, onFollow }) => {
 
     );
 };
-UserCard.PropTypes = {
-    user: PropTypes.shape({
-        id: PropTypes.number.isRequired,
-        name: PropTypes.string.isRequired,
-        email: PropTypes.string.isRequired,
-        role: PropTypes.string.isRequired,
-        avatar: PropTypes.string.isRequired,
-        bio: PropTypes.string
-    }).isRequired,
-    isOnline: PropTypes.bool,
-    isOnline: PropTypes.func.isRequired
-};
-UserCard.defaultProps = {
-    isOnline: false
-};
+// UserCard.PropTypes = {
+//     user: PropTypes.shape({
+//         id: PropTypes.number.isRequired,
+//         name: PropTypes.string.isRequired,
+//         email: PropTypes.string.isRequired,
+//         role: PropTypes.string.isRequired,
+//         avatar: PropTypes.string.isRequired,
+//         bio: PropTypes.string
+//     }).isRequired,
+//     isOnline: PropTypes.bool,
+//     isOnline: PropTypes.func.isRequired
+// };
+// UserCard.defaultProps = {
+//     isOnline: false
+// };
 
 export default UserCard;
