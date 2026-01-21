@@ -5,6 +5,7 @@ import Nested_Components from "./Components/Nested_Components";
 import Header from "./Components/HeaderComponent";
 import Footer from "./Components/FooterComponent";
 import Sidebar from "./Components/Sidebar";
+import Table_use from "./Page/Table_Use";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Sidebar/>
      </div>
      <div className="App p-8">
+      <Table_use/>
       <Button_Use/>
     </div>
     <div>
