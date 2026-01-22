@@ -1,5 +1,30 @@
+/* Main App Layout */
 .App {
-  text-align: center;
+  padding-left: clamp(200px, 25vw, 220px);
+  margin-top: 70px;
+  margin-bottom: 50px;
+  min-height: calc(100vh - 120px);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .App {
+    margin-left: 0;
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 .App-logo {
@@ -12,7 +37,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 
 .App-header {
   background-color: #282c34;

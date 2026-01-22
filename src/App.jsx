@@ -11,19 +11,15 @@ function App() {
 
   return (
     <>
-    <div><Header/></div>
-     <div>
-      <Sidebar/>
-     </div>
-     <div className="App p-8">
-      <Table_use/>
-      <Button_Use/>
-    </div>
-    <div>
-    <Footer/>
-    </div>
+      <Header />
+      <Sidebar />
+      <div className="App">
+        <Table_use />
+        <Button_Use />
+      </div>
+      <Footer />
     </>
-   
+
   );
 
 

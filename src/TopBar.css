@@ -1,8 +1,15 @@
 /* Top Bar Container */
-.top-bar-container {
-    position: sticky;
+.top-bar {
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
+    width: 100%;
+}
+
+.top-bar-container {
+    position: relative;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 0 24px;
     box-shadow: 0 4px 20px #0000001a;
